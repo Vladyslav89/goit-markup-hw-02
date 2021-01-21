@@ -8,6 +8,10 @@
   --address-link-color: rgba(255, 255, 255, 0.6);
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   font-family: var(--text-font);
   color: var(--main-color);
@@ -28,6 +32,7 @@ body {
   color: var(--accent-color);
 }
 .navigation-list-link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -41,6 +46,7 @@ body {
 }
 
 .contact-list-link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -79,6 +85,7 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 /* ===== HERO END ===== */
 
@@ -99,7 +106,6 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* ===== FEATURES END ===== */
 
@@ -138,6 +144,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+
+.our-team-img {
+  width: 270px;
+  height: 260px;
+}
 /* ===== OUR TEAM END ===== */
 
 /* ===== FOOTER ===== */
@@ -150,6 +161,8 @@ body {
 }
 
 .address-list-link {
+  text-decoration: none;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -174,6 +187,7 @@ body {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
