@@ -1,5 +1,6 @@
 :root {
   --logotype-font: "Raleway", sans-serif;
+  --text-font: "Roboto", sans-serif;
   --primary-text-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196f3;
@@ -11,7 +12,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--text-font);
   font-size: 14px;
   font-weight: 400;
   color: var(--primary-text-color);
